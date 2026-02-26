@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { COLORS, FONT_HEADING, FONT_BODY, statusColor } from "../../tokens";
 import { Badge } from "../ui/SharedUI";
-import SUBJECTS from "../../data/subjects.json";
+import SUBJECTS from "src/data/subjects.json";
 
 export default function ProgramDetails({ program, onBack }) {
   const [openYear, setOpenYear] = useState(0);

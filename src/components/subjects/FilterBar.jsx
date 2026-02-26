@@ -1,6 +1,6 @@
 import { COLORS, FONT_BODY } from "../../tokens";
 import { SearchInput, Select } from "../ui/SharedUI";
-import PROGRAMS from "../../data/programs.json";
+import PROGRAMS from "src/data/programs.json";
 
 const SEM_OPTIONS   = ["1st Semester", "2nd Semester", "Summer", "Both"];
 const UNITS_OPTIONS = ["2", "3", "6"];
